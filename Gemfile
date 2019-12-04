@@ -3,3 +3,4 @@ source 'https://rubygems.org'
 
 gem 'sorbet-runtime'
 gem 'warbler'
+gem 'jruby-jars', '9.1.17.0'
