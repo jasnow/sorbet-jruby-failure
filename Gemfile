@@ -1,6 +1,10 @@
-ruby '2.5.7', engine: 'jruby', engine_version: '9.2.9.0'
 source 'https://rubygems.org'
 
-gem 'sorbet-runtime'
+ruby '2.5.7', engine: 'jruby', engine_version: '9.2.9.0'
+
+
 gem 'warbler'
-gem 'jruby-jars', '9.2.9.0'
+gem 'jruby-jars'
+
+gem 'sorbet'
+gem 'sorbet-runtime'

@@ -5,6 +5,7 @@ GEM
     jruby-rack (1.1.21)
     rake (13.0.1)
     rubyzip (1.3.0)
+    sorbet (0.4.4250)
     sorbet-runtime (0.4.5109)
     warbler (2.0.5)
       jruby-jars (>= 9.0.0.0)
@@ -16,7 +17,8 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  jruby-jars (= 9.2.9.0)
+  jruby-jars
+  sorbet
   sorbet-runtime
   warbler
 
